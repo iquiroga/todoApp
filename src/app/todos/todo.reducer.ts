@@ -3,10 +3,8 @@ import { Todo } from './models/todo.models';
 import { borrar, borrarCompletados, crear, editar, toggle, toggleAll } from './todo.actions';
  
 export const initialState: Todo[] = [
-  new Todo('Salvar al mundo'),
-  new Todo('Salvar al mundo'),
-  new Todo('Salvar al mundo'),
-  new Todo('Salvar al mundo')
+  new Todo('Buy food'),
+  new Todo('Run 10K'),
 ];
  
 const _todoReducer = createReducer(

@@ -1,10 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { Store } from '@ngrx/store';
-import { Actions } from '@ngrx/store-devtools/src/reducer';
 import { AppState } from 'src/app/app.reducer';
 import { filtrosValidos, setFilter } from 'src/app/filtro/fltro.actions';
 import { borrarCompletados } from '../todo.actions';
-import { todoReducer } from '../todo.reducer';
 
 @Component({
   selector: 'app-todo-footer',
